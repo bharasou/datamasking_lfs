@@ -1,7 +1,9 @@
-FROM python:3.11
+FROM python:3.8
 
-ADD Datamasking_modular.py .
+RUN pip install pandas faker
 
-RUN pip install Faker
+COPY main.py csv_generator.py anonymize_csv.py /app/
 
-CMD ["python", "./datamasking_modular.py"]
+WORKDIR /app
+
+CMD ["python", "main.py"]
