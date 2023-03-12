@@ -16,7 +16,8 @@ class CSVAnonymizer:
             writer = csv.DictWriter(output_file, fieldnames=reader.fieldnames)
             writer.writeheader()
 
-            # Passing  through each row in the input file and anonymizing the particular columns using md5 hasing
+            # Passing  through each row in the input file and anonymizing the particular columns 
+            # using md5 hasing
             for row in reader:
                 try:
                     # Anonymizing first name
