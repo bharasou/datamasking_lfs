@@ -1,4 +1,5 @@
-.anonymize_csv.cpython-311.pyc/
-.csv_generator.cpython-311.pyc/
-.unittest.cpython-311.pyc/
-.datamasking_lfs.code-workspace/
+__pycache__/anonymize_csv.cpython-311.pyc
+__pycache__/csv_generator.cpython-311.pyc
+__pycache__/main.cpython-311.pyc
+__pycache__/unittest.cpython-311.pyc
+__pycache__/datamasking_lfs.code-workspace
