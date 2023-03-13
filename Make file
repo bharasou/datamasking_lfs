@@ -1,0 +1,24 @@
+Data masking project for LFS
+
+PROJECT_NAME = datamasking_lfs
+
+# Define the commands for building and running your project
+build:
+    @echo "Building $(PROJECT_NAME)"
+    ``` $ docker build -t datamasking . ```
+   
+
+run:
+    @echo "Running $(PROJECT_NAME)"
+    ```  docker run  datamasking ```
+
+# Define the command for running tests for your project
+test:
+    @echo "Running tests for $(PROJECT_NAME)..."
+    # Add any commands necessary for running tests for your project here.
+
+# Define the default command for the makefile
+.DEFAULT_GOAL := build
+
+# Define the phony targets for the makefile
+.PHONY: build run clean test
