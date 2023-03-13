@@ -1,7 +1,7 @@
 #importing packages and other python files to the main workspace
 import csv
-from csv_generator import CSVGenerator
-from anonymize_csv import CSVAnonymizer
+from Code.csv_generator import CSVGenerator
+from Code.anonymize_csv import CSVAnonymizer
 
 #assigning the original and anonymized data files to the local file
 if __name__ == '__main__':
